@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <title>Website</title>
+</head>
+
+<body>
+  <div class="main">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-2 navigation d-none d-sm-none d-md-none d-lg-block d-xl-block ">
+          <div class="container p-0">
+            <div class="row">
+              <div class="col-12 mt-4 profile">
+                <img src="images/mk.avif" alt="" class="img-fluid top-profile">
+                <h3 class="mt-3 name">Mehul Kure</h3>
+              </div>
+              <div class="col-11 m-auto pt-2">
+                <a href="" class="col-2 icon-a"><i class="bi bi-twitter"></i></a>
+                <a href="" class="col-2 icon-a"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/mehulkure08/" class="col-2 icon-a"><i class="bi bi-instagram"></i></a>
+                <a href="" class="col-2 icon-a"><i class="bi bi-skype"></i></a>
+                <a href="https://www.linkedin.com/in/mehul-kurhe-b0ab4b283/" class="col-2 icon-a"><i class="bi bi-linkedin"></i></a>
+              </div>
+              <div class="col-11 pt-2">
+                <ul class="list-unstyled">
+                  <li class="navi-li"><i class="bi bi-house-door icon11"></i><a href="HOME"
+                      class="nav-links text-light">Home</a></li>
+                  <li class="navi-li"><i class="bi bi-person icon10"></i><a href="#ABOUT" class="nav-links">About</a></li>
+                  <li class="navi-li"><i class="bi bi-file-earmark-person icon10"></i><a href="#RESUME"
+                      class="nav-links">Resume</a></li>
+                  <li class="navi-li"><i class="bi bi-journal-bookmark-fill icon10"></i><a href="#PORTFOLIO"
+                      class="nav-links">Portfolio</a></li>
+                  <li class="navi-li"><i class="bi bi-hdd-stack icon10"></i><a href="" class="nav-links">Services</a>
+                  </li>
+                  <li class="navi-li"><i class="bi bi-envelope-open icon10"></i><a href="#CONTACT" class="nav-links">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <i class="bi bi-list btn opacity-0" data-bs-target="#menu" data-bs-toggle="offcanvas"></i>
+
+        <div class="offcanvas offcanvas-start bg-dark " tabindex="-1" id="menu">
+          <div class="offcanvas-header">
+            <div class="col-7 ms-5  profile">
+              <img src="images/mk.avif" alt="" class="img-fluid top-profile2">
+              <h3 class="name">Mehul Kure</h3>
+            </div>
+            <span class="btn-close bg-light mb-5" data-bs-dismiss="offcanvas"></span>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav">
+              <div class="col-11 d-flex justify-content-center">
+                <a href="#" class="col-2 icon-a2 me-2"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="col-2 icon-a2 me-2"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/mehulkure08/" class="col-2 icon-a2 me-2"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="col-2 icon-a2 me-2"><i class="bi bi-skype"></i></a>
+                <a href="https://www.linkedin.com/in/mehul-kurhe-b0ab4b283/" class="col-2 icon-a2 me-2"><i class="bi bi-linkedin"></i></a>
+              </div>
+              <div class="col-11 pt-2">
+                <ul class="list-unstyled">
+                  <li class="navi-li"><i class="bi bi-house-door icon11"></i><a href="#HOME"
+                      class="nav-links text-light">Home</a></li>
+                  <li class="navi-li"><i class="bi bi-person icon10"></i><a href="" class="nav-links">About</a></li>
+                  <li class="navi-li"><i class="bi bi-file-earmark-person icon10"></i><a href="#ABOUT"
+                      class="nav-links">Resume</a></li>
+                  <li class="navi-li"><i class="bi bi-journal-bookmark-fill icon10"></i><a href="#PORTFOLIO"
+                      class="nav-links">Portfolio</a></li>
+                  <li class="navi-li"><i class="bi bi-hdd-stack icon10"></i><a href="" class="nav-links">Services</a>
+                  </li>
+                  <li class="navi-li"><i class="bi bi-envelope-open icon10"></i><a href="#CONTACT" class="nav-links">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 contants g-2">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-8 devoloper">
+                <h1 class="name1">Mehul Kure</h1>
+                <h4 class="im">I'm</h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h4 class="animatedText">I'm</h4>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 about p-4">
+                <h2 class="about-name" id="ABOUT">About</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum
+                  quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui
+                  impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+                </p>
+
+                <div class="container-fluid p-0">
+                  <div class="row">
+                    <div class="col-12 col-sm-12 col-md-4">
+                      <img src="images/mk.avif" alt="" class="img-fluid mdk">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 ditaile">
+                      <h2>Web Designer & Freelancer.</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 p-2 information"><i
+                            class="bi bi-chevron-right"></i><b>Birthday:</b>
+                          9 Jun 2008</div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 p-2 information"><i
+                            class="bi bi-chevron-right"></i><b>Age:</b>
+                          16</div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 p-2 information"><i
+                            class="bi bi-chevron-right"></i><b>Website:</b>
+                          www.exmaple.com</div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 p-2 information"><i
+                            class="bi bi-chevron-right"></i><b>Degree:</b>
+                          Master</div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 p-2 information"><i
+                            class="bi bi-chevron-right"></i><b>Phone:</b>
+                          +9165 7773 4556</div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 p-2 information"><i
+                            class="bi bi-chevron-right"></i><b>PhEmailone:</b>
+                          email@example.com</div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 p-2 information"><i
+                            class="bi bi-chevron-right"></i><b>City:</b>
+                          Surat, India</div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 p-2 information"><i
+                            class="bi bi-chevron-right"></i><b>Freelance:</b>
+                          Available</div>
+                      </div>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eligendi itaque blanditiis
+                        asperiores. Minus quia incidunt tempora illo doloremque. Delectus modi praesentium accusantium
+                        quidem quasi assumenda totam esse eum minima!
+                        Non asperiores natus laudantium totam qui deserunt nisi dolorum mollitia quod obcaecati in
+                        accusantium vitae voluptates sit assumenda aspernatur consequuntur doloribus delectus minima
+                        veniam voluptas nobis, incidunt vero! Molestias, iusto?</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row p-3 bar">
+                  <div class="col-12 fact p-0">
+                    <h2 class="about-name">Skill</h2>
+                  </div>
+                  <div class="col-12">
+                    <p>A full stack developer requires skills such as Front-end Languages and Frameworks (HTML, CSS,
+                      JavaScript), Backend Technologies and Frameworks (NodeJS, ExpressJS, Django, Flask, C++), Database
+                      Management Systems (MySQL, SQL SERVER and PostgreSQL, MongoDB, and Oracle Database), Version
+                      Control, and Web Hosting Platforms ...</p>
+                  </div>
+                  <div class="col-12">
+                    <div class="row wrapper">
+                      <div class="col-12 col-sm-5 col-md-5 col-lg-5 col-xl-5 percentage m-1" data-percentage="99">
+                        <div class="label1"></div>
+                        <div class="animation">
+                          <div class="animation-bar"></div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-5 col-md-5 col-lg-5 col-xl-5 percentage m-1" data-percentage="95">
+                        <div class="label2"></div>
+                        <div class="animation">
+                          <div class="animation-bar"></div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-5 col-md-5 col-lg-5 col-xl-5 percentage m-1" data-percentage="15">
+                        <div class="label3"></div>
+                        <div class="animation">
+                          <div class="animation-bar"></div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-5 col-md-5 col-lg-5 col-xl-5 percentage m-1" data-percentage="88">
+                        <div class="label4"></div>
+                        <div class="animation">
+                          <div class="animation-bar"></div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-5 col-md-5 col-lg-5 col-xl-5 percentage m-1" data-percentage="85">
+                        <div class="label5"></div>
+                        <div class="animation">
+                          <div class="animation-bar"></div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-5 col-md-5 col-lg-5 col-xl-5 percentage m-1" data-percentage="90">
+                        <div class="label6"></div>
+                        <div class="animation">
+                          <div class="animation-bar"></div>
+                        </div>
+                      </div>
+                      <div class="col-5 percentage m-1" data-percentage="0">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row p-3">
+                    <div class="col-12 fact p-0">
+                      <h2 class="about-name" id="RESUME">Resume</h2>
+                    </div>
+                    <div class="col-12">
+                      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
+                        Sit
+                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
+                        ea.
+                        Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    </div>
+                    <div class="col-12">
+                      <div class="row mt-4">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pb-0">
+                          <h3>Summary</h3>
+                          <div class="resume-item pt-3">
+                            <h5 class="names">ALEX SMITH</h5>
+                            <em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing
+                              and
+                              developing user-centered digital/print marketing material from initial concept to final,
+                              polished deliverable.</em>
+                            <ul class="pt-3">
+                              <li class="mb-2">Portland par 127,Orlando, FL</li>
+                              <li class="mb-2">(123) 456-7891</li>
+                              <li class="mb-2">alice.barkley@example.com</li>
+                            </ul>
+                          </div>
+                          <h3>Education</h3>
+                          <div class="resume-item pt-3">
+                            <h5 class="names">MASTER OF FINE ARTS & GRAPHIC DESIGN</h5>
+                            <h5 class="year">2015 - 2016</h5>
+                            <i class="d-block mb-3">Rochester Institute of Technology, Rochester, NY</i>
+                            <em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing
+                              and
+                              developing user-centered digital/print marketing material from initial concept to final,
+                              polished deliverable.</em>
+                          </div>
+                          <div class="resume-item pt-3">
+                            <h5 class="names">MASTER OF FINE ARTS & GRAPHIC DESIGN</h5>
+                            <h5 class="year">2015 - 2016</h5>
+                            <i class="d-block mb-3">Rochester Institute of Technology, Rochester, NY</i>
+                            <em>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius
+                              vel
+                              ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur
+                              neque etlon sader mart dila</em>
+                          </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                          <h3>Professional Experience</h3>
+                          <div class="resume-item pt-3">
+                            <h5 class="names">SENIOR GRAPHIC DESIGN SPECIALIST</h5>
+                            <h5 class="year">2019-Present</h5>
+                            <em class="d-block pb-3">Experion, New York, NY</em>
+                            <ul class="">
+                              <li class="mb-2">Lead in the design, development, and implementation of the graphic,
+                                layout,
+                                and production communication materials</li>
+                              <li class="mb-2">Delegate tasks to the 7 members of the design team and provide counsel on
+                                all aspects of the project.</li>
+                              <li class="mb-2">Supervise the assessment of all graphic materials in order to ensure
+                                quality and accuracy of the design</li>
+                              <li class="mb-2">Oversee the efficient use of production project budgets ranging from
+                                $2,000
+                                - $25,000</li>
+                            </ul>
+                          </div>
+                          <div class="resume-item pt-3">
+                            <h5 class="names">GRAPHIC DESIGN SPECIALIST</h5>
+                            <h5 class="year">2017 - 2018</h5>
+                            <em class="d-block pb-3">Stepping Stone Advertising, New York, NY</em>
+                            <ul class="">
+                              <li class="mb-2">Developed numerous marketing programs (logos, brochures,infographics,
+                                presentations, and advertisements).</li>
+                              <li class="mb-2">Managed up to 5 projects or tasks at a given time while under pressure
+                              </li>
+                              <li class="mb-2">Recommended and consulted with clients on the most appropriate graphic
+                                design</li>
+                              <li class="mb-2">Created 4+ design presentations and proposals a month for clients and
+                                account managers</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row p-3">
+                    <div class="col-12 fact p-0">
+                      <h2 class="about-name" id="PORTFOLIO">Portfolio</h2>
+                    </div>
+                    <div class="col-12">
+                      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
+                        Sit
+                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
+                        ea.
+                        Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    </div>
+                    <div class="col-12 websites p-3">
+                      <ul class="nav nav-tabs d-flex justify-content-center mb-5 mt-5x" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link text-light active" id="home-tab" data-bs-toggle="tab"
+                            data-bs-target="#home" type="button" role="tab" aria-controls="home"
+                            aria-selected="true">All-web</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link text-light" id="profile-tab" data-bs-toggle="tab"
+                            data-bs-target="#profile" type="button" role="tab" aria-controls="profile"
+                            aria-selected="false">Responsive-web</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link text-light" id="contact-tab" data-bs-toggle="tab"
+                            data-bs-target="#contact" type="button" role="tab" aria-controls="contact"
+                            aria-selected="false">Not-Responsive-web</button>
+                        </li>
+                      </ul>
+                      <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                          <div class="row">
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 ports">
+                              <a href="images/web-1.png" data-toggle="lightbox">
+                                <img src="images/web-1.png" class="img-fluid contentes" id="topa">
+                              </a>
+                              <div class="layer">
+                                <h3><a href="https://meotre-cliare.netlify.app/"><i class="bi bi-link-45deg"></i></a>
+                                </h3>
+                              </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 ports">
+                              <a href="images/web-2.png" data-toggle="lightbox">
+                                <img src="images/web-2.png" class="img-fluid contentes">
+                              </a>
+                              <div class="layer">
+                                <h3><a href="https://huffiest-sleep.000webhostapp.com/"><i
+                                      class="bi bi-link-45deg"></i></a>
+                                </h3>
+                              </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 ports">
+                              <a href="images/web-3.png" data-toggle="lightbox">
+                                <img src="images/web-3.png" class="img-fluid contentes">
+                              </a>
+                              <div class="layer">
+                                <h3><a href="https://unstinted-cartridge.000webhostapp.com/"><i
+                                      class="bi bi-link-45deg"></i></a></h3>
+                              </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 ports">
+                              <a href="images/web-4.png" data-toggle="lightbox">
+                                <img src="images/web-4.png" class="img-fluid contentes">
+                              </a>
+                              <div class="layer">
+                                <h3><a href="https://subdorsal-veteran.000webhostapp.com/"><i
+                                      class="bi bi-link-45deg"></i></a></h3>
+                              </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 ports">
+                              <a href="images/web-5.png" data-toggle="lightbox">
+                                <img src="images/web-5.png" class="img-fluid contentes">
+                              </a>
+                              <div class="layer">
+                                <h3><a href=""><i class="bi bi-link-45deg"></i></a></h3>
+                              </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 ports">
+                              <a href="images/web-6.png" data-toggle="lightbox">
+                                <img src="images/web-6.png" class="img-fluid contentes">
+                              </a>
+                              <div class="layer">
+                                <h3><a href=""><i class="bi bi-link-45deg"></i></a></h3>
+                              </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 ports">
+                              <a href="images/web-7.png" data-toggle="lightbox">
+                                <img src="images/web-7.png" class="img-fluid contentes">
+                              </a>
+                              <div class="layer">
+                                <h3><a href=""><i class="bi bi-link-45deg"></i></a></h3>
+                              </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 ports">
+                              <a href="images/web-8.png" data-toggle="lightbox">
+                                <img src="images/web-8.png" class="img-fluid contentes">
+                              </a>
+                              <div class="layer">
+                                <h3><a href="https://happpentense01.netlify.app/"><i class="bi bi-link-45deg"></i></a>
+                                </h3>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade text-center" id="profile" role="tabpanel"
+                          aria-labelledby="profile-tab">
+                          <div class="row">
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 ports">
+                              <a href="images/web-1.png" data-toggle="lightbox">
+                                <img src="images/web-1.png" class="img-fluid contentes">
+                              </a>
+                              <div class="layer">
+                                <h3><a href="https://meotre-cliare.netlify.app/"><i class="bi bi-link-45deg"></i></a>
+                                </h3>
+                              </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 ports">
+                              <a href="images/web-2.png" data-toggle="lightbox">
+                                <img src="images/web-2.png" class="img-fluid contentes">
+                              </a>
+                              <div class="layer">
+                                <h3><a href="https://huffiest-sleep.000webhostapp.com/"><i
+                                      class="bi bi-link-45deg"></i></a>
+                                </h3>
+                              </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 ports">
+                              <a href="images/web-3.png" data-toggle="lightbox">
+                                <img src="images/web-3.png" class="img-fluid contentes">
+                              </a>
+                              <div class="layer">
+                                <h3><a href="https://unstinted-cartridge.000webhostapp.com/"><i
+                                      class="bi bi-link-45deg"></i></a></h3>
+                              </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 ports">
+                              <a href="images/web-4.png" data-toggle="lightbox">
+                                <img src="images/web-4.png" class="img-fluid contentes">
+                              </a>
+                              <div class="layer">
+                                <h3><a href="https://subdorsal-veteran.000webhostapp.com/"><i
+                                      class="bi bi-link-45deg"></i></a></h3>
+                              </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 ports">
+                              <a href="images/web-8.png" data-toggle="lightbox">
+                                <img src="images/web-8.png" class="img-fluid contentes">
+                              </a>
+                              <div class="layer">
+                                <h3><a href="https://happpentense01.netlify.app/"><i class="bi bi-link-45deg"></i></a>
+                                </h3>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                          <div class="row">
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 ports">
+                              <a href="images/web-5.png" data-toggle="lightbox">
+                                <img src="images/web-5.png" class="img-fluid contentes">
+                              </a>
+                              <div class="layer">
+                                <h3><a href=""><i class="bi bi-link-45deg"></i></a></h3>
+                              </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 ports">
+                              <a href="images/web-6.png" data-toggle="lightbox">
+                                <img src="images/web-6.png" class="img-fluid contentes">
+                              </a>
+                              <div class="layer">
+                                <h3><a href=""><i class="bi bi-link-45deg"></i></a></h3>
+                              </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 ports">
+                              <a href="images/web-7.png" data-toggle="lightbox">
+                                <img src="images/web-7.png" class="img-fluid contentes">
+                              </a>
+                              <div class="layer">
+                                <h3><a href=""><i class="bi bi-link-45deg"></i></a></h3>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row p-3 d-flex justify-content-around">
+                    <div class="col-12 fact p-0">
+                      <h2 class="about-name" id="CONTACT">CONTACT</h2>
+                    </div>
+                    <div class="col-12">
+                      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
+                        Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit
+                        alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    </div>
+
+                    <div class="col-12 col-md-5 bg-classic p-4">
+                      <div class="row">
+                        <div class="col-12 lorem-main">
+                          <div class="lorem">
+                            <span class="content-icon"><i class="bi bi-geo-alt-fill"></i></span>
+                          </div>
+                          <div class="content-loss">
+                            <h3>Location:</h3>
+                            <p>A108 Adam Street, New York, NY 535022</p>
+                          </div>
+                        </div>
+
+                        <div class="col-12 lorem-main">
+                          <div class="lorem">
+                            <span class="content-icon"><i class="bi bi-envelope"></i></span>
+                          </div>
+                          <div class="content-loss">
+                            <h3>Email:</h3>
+                            <p>info@example.com</p>
+                          </div>
+                        </div>
+
+                        <div class="col-12 lorem-main">
+                          <div class="lorem">
+                            <span class="content-icon"><i class="bi bi-phone"></i></span>
+                          </div>
+                          <div class="content-loss">
+                            <h3>Location:</h3>
+                            <p>4th Floor, Uma Plaza, Dindoli</p>
+                          </div>
+                        </div>
+
+                        <div class="col-12 lorem-main">
+                          <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3778646.7465226986!2d71.326441341322!3d22.350429962152866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fdfbf7ef243%3A0x738ac9f13a2e46a4!2sRoyal%20Star%20Township!5e0!3m2!1sen!2sin!4v1702306557911!5m2!1sen!2sin"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-md-5 bg-classic p-4">
+                      <form action="">
+                        <div class="row">
+                          <div class="col-md-6 input">
+                            <label for="name" class="names">Your Name</label>
+                            <input type="text" name="name" class="form-control">
+                          </div>
+                          <div class="col-md-6 input">
+                            <label for="name" class="names">Your Email</label>
+                            <input type="text" name="name" class="form-control">
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <label for="name" class="names">Subject</label>
+                          <input type="text" name="name" class="form-control">
+                        </div>
+                        <div class="col-12">
+                          <label for="name" class="names">Message</label>
+                          <textarea class="form-control" name="message" rows="10" required=""></textarea>
+                        </div>
+                        <div class="text-center bottn col-12">
+                          <button type="submit" class="btn btn-outline-info">Send Message</button>
+                        </div>
+                        <div class="col-12 among">
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
